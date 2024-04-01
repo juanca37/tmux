@@ -1,9 +1,3 @@
 ### HOW TO INSTALL
 
-1. Clone this repo
-
-2. cd into the tmux folder
-
-3. Run the following command to create a symlink to home folder
-
-> ln -s .tmux.conf ~/.tmux.conf
+1. Clone this repo into the ~/.config/tmux folder in your PC
