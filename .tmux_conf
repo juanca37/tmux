@@ -14,8 +14,15 @@ bind-key | split-window -h
 unbind -
 bind-key - split-window -v
 
+# reload config file (change file location to your the tmux.conf you want to use)
+bind r source-file ~/.tmux.conf
+
 # Using the mouse to switch panes
 set -g mouse on
 
-set -g @plugin 'egel/tmux-gruvbox'
-set -g @tmux-gruvbox 'dark' # or 'light'
+# Set Gruvbox Theme TODO: Probably not working
+# set -g @plugin 'egel/tmux-gruvbox'
+# set -g @tmux-gruvbox 'dark' # or 'light'
+
+# don't rename windows automatically
+set-option -g allow-rename off
