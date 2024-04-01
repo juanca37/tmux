@@ -6,4 +6,4 @@
 
 3. Run the following command to create a symlink to home folder
 
-> ln .tmux.conf ~/.tmux.conf
+> ln -s .tmux.conf ~/.tmux.conf
